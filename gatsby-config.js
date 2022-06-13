@@ -14,6 +14,21 @@ module.exports = {
       "name": "images",
       "path": "./src/images/"
     },
-    __key: "images"
+    __key: "images"},
+	  {
+		  resolve: "gatsby-plugin-react-svg",
+		  options: {
+			  rule: {
+				  include: /assets/ // See below to configure properly
+			  }},},
+	  {
+		  resolve: 'gatsby-plugin-google-fonts',
+		  options: {
+			  fonts: [
+				  'Poppins\:400,500,700',
+			  ],
+			  display: 'swap',
+		  },
+
   }]
 };
