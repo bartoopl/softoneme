@@ -27,8 +27,7 @@ export const theme = {
 			thumbnailSmall: '1.4rem',
 		},
 		family: {
-			montserrat: '"Montserrat", sans-serif',
-			cormorant: '"Cormorant Garamond", serif',
+			poppins: '"Poppins", sans-serif',
 		},
 	},
 	mq: {
